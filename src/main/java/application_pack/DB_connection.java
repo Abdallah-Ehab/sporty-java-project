@@ -6,9 +6,9 @@ import java.sql.*;
 public abstract class DB_connection extends alerts_and_warning {
 
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/club";
-    private static final String USER = "root";
-    private static final String PASSWORD = "1234";
+    private static final String DB_URL = System.getenv("DB_URL");
+    private static final String USER = System.getenv("DB_USER");
+    private static final String PASSWORD = System.getenv("DB_PASSWORD");
     private static Connection conn = null;
 
     public static Connection connection(){
