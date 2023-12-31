@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application_pack.sign_up">
+   <children>
+      <TextField fx:id="user_name_signup_text" layoutX="205.0" layoutY="103.0" prefHeight="25.0" prefWidth="190.0" promptText="username" styleClass="textfield" stylesheets="@style.css" />
+      <Text fill="#851ca8" layoutX="205.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username" />
+      <Text fill="#851ca8" layoutX="205.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password" />
+      <Text fill="#851ca8" layoutX="205.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="confirm password" />
+      <PasswordField fx:id="password_signup_text" layoutX="205.0" layoutY="155.0" prefHeight="25.0" prefWidth="190.0" promptText="password" styleClass="textfield" stylesheets="@style.css" />
+      <PasswordField fx:id="confirm_password" layoutX="205.0" layoutY="217.0" prefHeight="25.0" prefWidth="190.0" promptText="confirm_password" styleClass="textfield" stylesheets="@style.css" />
+      <Button fx:id="sign_up_btn" layoutX="256.0" layoutY="277.0" mnemonicParsing="false" onAction="#sing_up_submit" prefHeight="25.0" prefWidth="87.0" stylesheets="@style.css" text="sign up" />
+      <Label fx:id="password_complexity_label" layoutX="248.0" layoutY="180.0" text="atleast 4 characters" textFill="RED" />
+      <Button fx:id="return_to_login_btn" layoutX="253.0" layoutY="325.0" mnemonicParsing="false" onAction="#return_to_login" stylesheets="@style.css" text="return to login" />
+      <CheckBox fx:id="admin_checkbox_signup" layoutX="283.0" layoutY="371.0" mnemonicParsing="false" text="Admin" textFill="#851ca8" />
+      <AnchorPane layoutX="-2.0" layoutY="-5.0" prefHeight="409.0" prefWidth="150.0" styleClass="background" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" />
+      <AnchorPane layoutX="450.0" layoutY="3.0" prefHeight="409.0" prefWidth="150.0" styleClass="background" stylesheets="@style.css" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

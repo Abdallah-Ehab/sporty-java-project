@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application_pack.ClubsTable">
+   <children>
+      <TableView fx:id="table_view_id" layoutX="176.0" onMouseClicked="#get_selected_table_data" prefHeight="470.0" prefWidth="804.0" styleClass="column-header-background" stylesheets="@style.css">
+        <columns>
+          <TableColumn fx:id="id_col" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="club_id_col" prefWidth="75.0" text="club_id" />
+            <TableColumn fx:id="club_name_col" prefWidth="126.0" text="name" />
+            <TableColumn fx:id="club_branches_col" prefWidth="77.0" text="branches" />
+            <TableColumn fx:id="club_budget_col" prefWidth="69.0" text="budget" />
+            <TableColumn fx:id="club_stadiums_col" prefWidth="94.0" text="stadiums" />
+            <TableColumn fx:id="club_championships_col" prefWidth="114.0" text="championships" />
+            <TableColumn fx:id="image_path_col" prefWidth="186.0" text="image_path" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutX="6.0" layoutY="35.0" prefHeight="400.0" prefWidth="163.0" styleClass="left-form" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="805.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="club_id_text" layoutX="6.0" layoutY="51.0" promptText="club_id" styleClass="textfield" stylesheets="@style.css" />
+            <TextField fx:id="club_name_text" layoutX="6.0" layoutY="94.0" promptText="name" styleClass="textfield" stylesheets="@style.css" />
+            <TextField fx:id="club_branches_text" layoutX="8.0" layoutY="134.0" promptText="branches" styleClass="textfield" stylesheets="@style.css" />
+            <TextField fx:id="club_budget_text" layoutX="7.0" layoutY="176.0" promptText="budget" styleClass="textfield" stylesheets="@style.css" />
+            <TextField fx:id="club_stadium_text" layoutX="7.0" layoutY="219.0" promptText="stadiums" styleClass="textfield" stylesheets="@style.css" />
+            <TextField fx:id="club_championships_text" layoutX="9.0" layoutY="259.0" promptText="championships" styleClass="textfield" stylesheets="@style.css" />
+            <Button fx:id="ADD_btn" layoutX="6.0" layoutY="354.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="149.0" text="ADD" />
+            <Button fx:id="Update_btn" layoutX="6.0" layoutY="394.0" mnemonicParsing="false" onAction="#Update" prefHeight="25.0" prefWidth="149.0" text="Update" />
+            <Button fx:id="back_to_main_menu" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#go_to_main_menu" prefHeight="25.0" prefWidth="54.0" text="back" />
+            <Button fx:id="club_delete_btn" layoutX="6.0" layoutY="431.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="149.0" text="Delete" />
+            <Button fx:id="upload_image_btn" layoutX="37.0" layoutY="309.0" mnemonicParsing="false" onAction="#upload" text="upload image" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

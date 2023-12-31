@@ -1,0 +1,24 @@
+{
+  "clubs": [
+    {
+      "name": "alahly",
+      "description": "Al Ahly Sporting Club is an Egyptian professional football club based in Cairo.\nIt was founded in 1907. The club has won numerous championships, including 42 Egyptian Premier League titles and 10 CAF Champions League titles.\nSome of the notable managers who have coached Al Ahly include Manuel José, Hossam El-Badry, and Pitso Mosimane.\nThe club has had several legendary players, such as Mohamed Aboutrika, Hossam Hassan, and Mahmoud El Khatib."
+    },
+    {
+      "name": "zamalek",
+      "description": "Zamalek Sporting Club is an Egyptian football club based in Giza.\nIt was established in 1911. The club has a rich history of success, having won 27 Egyptian Premier League titles and 5 CAF Champions League titles.\nNotable managers who have led Zamalek include Mahmoud El-Gohary, Hossam Hassan, and Patrice Carteron.\nThe club has produced legendary players like Hazem Emam, Hany Said, and Ibrahim Hassan."
+    },
+    {
+      "name": "ismaily",
+      "description": "Ismaily Sporting Club is an Egyptian football club based in Ismailia.\nIt was founded in 1924. Ismaily has won the Egyptian Premier League three times and has a strong presence in Egyptian football.\nThe club has seen notable managers like Manuel Cajuda, Ahmed Hossam Hussein, and Khaled El-Kamash.\nSome of the most significant players in the club's history include Hassan El-Shazly, Mohamed Barakat, and Mohamed Salah."
+    },
+    {
+      "name": "almasry",
+      "description": "Al Masry Sporting Club is an Egyptian football club located in Port Said.\nIt was established in 1920. The club has achieved success in Egyptian football, winning the Egyptian Premier League once.\nAl Masry has had various managers, including Ehab Galal, Hossam Hassan, and Mido.\nNotable players who have represented Al Masry include Mohamed Aboutrika, Ahmed El-Kass, and Hany Said."
+    },
+    {
+      "name": "ismailia",
+      "description": "Ismailia Sporting Club is an Egyptian football club based in Ismailia.\nIt was founded in 1917. The club has a modest history in terms of championship victories but has been a prominent presence in Egyptian football.\nNotable managers who have coached Ismailia include Taha Ismail, Hany Said, and Emad Soliman.\nSome of the significant players in the club's history include Hassan El-Shazly, Essam El-Hadary, and Ayman Mansour."
+    }
+  ]
+}
